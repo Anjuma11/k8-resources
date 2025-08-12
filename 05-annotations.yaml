@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Pod
+metadata:
+ name: labels
+ labels:
+  project: roboshop
+  component: mysql
+  tier: backend
+  environment: dev
+ annotations:
+  purpose:
+  jenkins:
+spec:
+  containers:
+  - name: nginx
+    image: nginx

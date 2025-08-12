@@ -1,0 +1,11 @@
+apiVersion: apps/v1
+kind: ConfigMap
+metadata:
+  name: pod-config
+  labels:
+    purpose: config
+    env: dev
+data:
+  COURSE: "DevOps with AWS"
+  Duration: "120HRS"
+  Trainer: "Siva"

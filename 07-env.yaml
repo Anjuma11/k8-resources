@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: labels
+  labels:
+    purpose: demonstrate-env
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    env:
+    - name: COURSE
+      value: "DevOps"
+    - name: Trainer
+      value: "siva"
+    - name: Duration
+      value: "120HRS"
