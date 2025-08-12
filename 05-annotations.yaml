@@ -8,7 +8,7 @@ metadata:
   tier: backend
   environment: dev
  annotations:
-  purpose:
+  description:
   jenkins:
 spec:
   containers:
