@@ -10,7 +10,6 @@ spec:
     requests:
       storage: 4Gi
 ---
-
 apiVersion: v1
 kind: Pod
 metadata:
